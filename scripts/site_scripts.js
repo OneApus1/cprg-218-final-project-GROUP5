@@ -1,5 +1,4 @@
-console.log("Heeheehoohoo");
-
+const spotifyDivs=document.getElementById("track-title");
 const APIController = (function() {
 
     const clientID = "29dc24ac48504306a222532a0f52a87e";
@@ -44,6 +43,15 @@ const APIController = (function() {
             const trackEndPoint = "https://api.spotify.com/v1/tracks/0CTGevl6CkWHYXg3Cw3JLe";
             const trackData = await getTrack(token, trackEndPoint);
             console.log(trackData);
+
+            const card=document.createElement("div");
+            card.className="card";
+
+            const trackTitle=document.createElement("p");
+            trackTitle.textContent=trackData.name;
+
+            spotifyDivs.appendChild(card);
+            card.appendChild(trackTitle);
         }
     }
 
@@ -54,6 +62,7 @@ const APIController = (function() {
 
 })();
 
-// Call the init method to start the process
-APIController.init();
 
+document.addEventListener('DOMContentLoaded', () => {
+    APIController.init();
+});
