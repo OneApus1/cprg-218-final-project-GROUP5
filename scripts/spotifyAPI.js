@@ -1,8 +1,9 @@
+console.log(process.env.CLIENT_SECRET)
+
 const spotifyDivs=document.getElementById("track-title");
 const APIController = (function() {
-
-    const clientID = "29dc24ac48504306a222532a0f52a87e";
-    const clientSecret = "87c281ce149a42b0bfb1cfd2d3967008";
+    const clientID = $(process.env.CLIENT_ID);
+    const clientSecret = $(process.env.CLIENT_SECRET);
 
     // Function to get access token
     const getToken = async () => {
