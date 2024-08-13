@@ -1,6 +1,6 @@
 const clientID = "29dc24ac48504306a222532a0f52a87e";
 const clientSecret = "__CLIENT_SECRET__"
-// console.log(clientID)
+
 
 const spotifyDivs=document.getElementById("track-title");
 const APIController = (function() {
@@ -17,6 +17,7 @@ const APIController = (function() {
                 body: "grant_type=client_credentials"
             });
             const data = await result.json();
+            console.log(clientSecret)
             return data.access_token;
         } catch (error) {
             console.error('Error getting token:', error);
