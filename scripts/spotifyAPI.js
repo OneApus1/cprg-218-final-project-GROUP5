@@ -1,5 +1,5 @@
 const clientID = "29dc24ac48504306a222532a0f52a87e";
-const clientSecret = "87c281ce149a42b0bfb1cfd2d3967008";
+const clientSecret = "__CLIENT_SECRET__"
 // console.log(clientID)
 
 const spotifyDivs=document.getElementById("track-title");
