@@ -17,7 +17,7 @@ const APIController = (function() {
                 body: "grant_type=client_credentials"
             });
             const data = await result.json();
-            console.log(clientSecret)
+            console.log(clientID)
             return data.access_token;
         } catch (error) {
             console.error('Error getting token:', error);
