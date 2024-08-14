@@ -3,7 +3,7 @@ body {
     font-family: 'Chewy', sans-serif;
     background: linear-gradient(to bottom right, #ff9933, #fffc61, #3399ff);
     color: #000;
-    margin: 0;
+    margin: 50px;
     padding: 0;
     text-align: center; 
 }
