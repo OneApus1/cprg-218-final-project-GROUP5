@@ -78,15 +78,38 @@ ul{
     color: #fff;
 }
 
+.track_div{
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px; 
+    display: flex;
+    justify-content: center;
+}
+
 /* Track Title */
 .track-title {
     font-size: 2em;
     color: #fff; 
     text-align: center;
-    margin: 20px 0;
-    background-color: rgba(0, 0, 0, 0.7); 
-    padding: 10px; 
-    border-radius: 5px; 
+    margin: 20px;
+    display: grid;
+    align-items: center;
+}
+
+.dialogue_box{
+    display: grid;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50px;
+    margin: 50px;
+    padding: 10px;
+    position: absolute;
+    transform: translate(115%, -50%);
+    z-index: 1;
+}
+
+.parappa_motionless{
+    width: 250px;
+    transition: transform 0.1s ease-in-out;
 }
 
 /* Link to Second Page */

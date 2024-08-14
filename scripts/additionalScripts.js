@@ -49,3 +49,32 @@ document.addEventListener('DOMContentLoaded', () => {
 
   rotateText(); // Start the rotation
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+  const element = document.getElementById('parappa_motionless');
+  let angle = 0;
+  let scale = 1;
+  let direction = 1;
+  const speed = 0.1;
+  const scaleSpeed = 0.01;
+
+  function animate() {
+    angle += direction;
+    scale += scaleSpeed * direction;
+
+    // Reverse the scaling direction at limits
+    if (scale >= 1.5 || scale <= 0.5) {
+      scaleSpeed *= -1;
+    }
+
+    element.style.transform = `rotate(${angle}deg) scale(${scale})`;
+
+    if (angle >= 30 || angle <= -30) {
+      direction *= -1;
+    }
+
+    requestAnimationFrame(animate);
+  }
+
+  animate();
+});
