@@ -30,11 +30,13 @@ header {
 .hero_banner {
     width: 80%; 
     max-width: 600px; 
-    height: auto;
-    border: 5px solid #000;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-    display: block;
-    margin: 0 auto; 
+    border-style: none;
+    box-shadow: none;
+    transition: transform 0.35s ease-in-out;
+}
+
+.banner_position{
+    transform: translateY(43%);
 }
 
 section img {

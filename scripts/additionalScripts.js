@@ -28,3 +28,24 @@ document.addEventListener('DOMContentLoaded', function() {
       });
   });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+  const element = document.getElementById('hero_banner');
+  let angle = 0; // Starting angle
+  let direction = 1; // 1 for clockwise, -1 for counterclockwise
+  const speed = 0.35;
+
+  function rotateText() {
+    angle += direction; // Increase or decrease angle
+    element.style.transform = `rotate(${angle}deg)`;
+
+    // Reverse direction when angle reaches the limit
+    if (angle >= 30 || angle <= -30) {
+      direction *= -1;
+    }
+
+    requestAnimationFrame(rotateText); // Request next frame
+  }
+
+  rotateText(); // Start the rotation
+});
