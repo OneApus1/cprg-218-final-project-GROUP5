@@ -1,10 +1,6 @@
 const clientID = "__CLIENT_ID__";
 const clientSecret = "__CLIENT_SECRET__"
 
-
-const spotifyDivs=document.getElementById("track-title");
-const APIController = (function() {
-    
     // Function to get access token
     const getToken = async () => {
         try {
@@ -37,6 +33,9 @@ const APIController = (function() {
         }
     }
 
+const spotifyDivs=document.getElementById("track-title");
+const APIController = (function() {
+    
     // Public method to initialize and fetch data
     const init = async () => {
         const token = await getToken();
