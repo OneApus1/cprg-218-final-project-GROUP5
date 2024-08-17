@@ -1,2 +1,28 @@
 # cprg-218-final-project-GROUP5
 Parappa Site Parappa Site Parappa Site 
+
+© 2024 Sony Interactive Entertainment LLC
+All content, games titles, trade names and/or trade dress, trademarks, artwork and
+associated imagery are trademarks and/or copyright material of their respective owners. All rights reserved
+Used for educational use exclusively, not for profit.
+
+Parrapa Cover:
+https://www.playstation.com/en-ca/games/parappa-the-rapper-remastered/
+
+Parappa The Rapper logo:
+https://playstationallstars.fandom.com/wiki/PaRappa_the_Rapper
+
+PJ Berri:
+https://parappatherapper.fandom.com/wiki/PJ_Berri
+
+Katy Kat:
+https://lgbtqia-characters.fandom.com/wiki/Katy_Kat
+
+Joe Chin:
+https://www.pngitem.com/middle/iimRoiT_download-zip-archive-parappa-the-rapper-joe-chin/
+
+"Parappa The Rapper" screenshots taken from Playstation Trophies website,
+https://www.playstationtrophies.org/game/parappa-the-rapper-remastered/screenshots/
+
+"3D Parappa" image taken from fandom.com website,
+https://parappatherapper.fandom.com/wiki/PaRappa_Rappa?file=IMG_0528.PNG#In-Game_&_Other
